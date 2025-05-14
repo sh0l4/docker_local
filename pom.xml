@@ -105,7 +105,7 @@
 	    <snapshotRepository>
 	      <id>acada-snapshot</id>
 	      <name>ACADA Learning snapshot Nexus Repository </name>
-	      <url>http://4.229.224.170:8081/nexus/content/repositories/apache-snapshots/</url>
+	      <url>http://4.229.224.170:8081/nexus/content/repositories/acada-snapshot/</url>
 	    </snapshotRepository>
 
 	</distributionManagement>
