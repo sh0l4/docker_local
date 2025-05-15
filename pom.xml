@@ -96,12 +96,12 @@
 	</dependencies>
 	<distributionManagement>
 	    <repository>
-	        <id>central</id>
+	        <id>acada-repo</id>
 	        <name>47dfc278fda4-releases</name>
 	        <url>http://4.229.224.170:8022/artifactory/acada-repo</url>
 	    </repository>
 	    <snapshotRepository>
-	        <id>snapshots</id>
+	        <id>acada-repo</id>
 	        <name>47dfc278fda4-snapshots</name>
 	        <url>http://4.229.224.170:8022/artifactory/acada-repo</url>
 	    </snapshotRepository>
