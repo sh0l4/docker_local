@@ -14,4 +14,5 @@ docker run -d  --name acada-webapp$i -p 800$i:8080 --network acada-app -v acada-
 echo "Deploying webapp$i container done"
 done
 
-
+docker rm haproxy -f >/dev/null 2>&1 || true
+docker run -d --name haproxy --network acada-app -v /tmp/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro -p 9090:80 haproxy:latest
